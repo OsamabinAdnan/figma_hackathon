@@ -102,7 +102,7 @@ export default function Dashboard() {
                     {/* heading and map */}
                     <h1 className='text-left mb-2 text-[20px] font-bold'>Details Rental</h1>
                     <div className='gap-2 flex-col flex justify-center items-start'>
-                        <Image src='/maps.png' alt='map' width={486} height={272} className='relative'/>
+                        <Image src='/Maps.png' alt='map' width={486} height={272} className='relative'/>
                     </div>
                     {/* Car picture and detail */}
                     <div className='flex justify-between items-center'>
