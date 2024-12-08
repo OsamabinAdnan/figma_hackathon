@@ -157,7 +157,7 @@ export default function Detail() {
                         </div>
                         {/* Paragraph */}
                         <div>
-                            <p className='text-[20px] font-normal text-[#596780]'>NISMO has become the embodiment of Nissan outstanding performance, inspired by the most unforgiving proving ground, the "race track".</p>
+                            <p className='text-[20px] font-normal text-[#596780]'>NISMO has become the embodiment of Nissan outstanding performance, inspired by the most unforgiving proving ground, the race track.</p>
                         </div>
                         {/* Features */}
                         <div className='flex sm:justify-between items-center sm:flex-row flex-col justify-center'>
