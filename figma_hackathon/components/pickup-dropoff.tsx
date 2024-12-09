@@ -1,6 +1,7 @@
 import { ChevronDown } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
+import { Input } from './ui/input'
 
 export default function PickDrop() {
   return (
@@ -8,11 +9,11 @@ export default function PickDrop() {
         <div className='max-w-[1440px] mx-auto py-8'>
             <div className='flex justify-between items-center lg:flex-row flex-col'>
 
-                <div className='p-4 bg-white max-w-[582px] space-y-2 shadow-md rounded'>
+                <div className='p-3 bg-white max-w-[582px] space-y-1 shadow-md rounded'>
                     {/* Above Section */}
                     {/* 1st part above section */}
                     <div className='flex justify-start items-center gap-2'>
-                        <Image src='/icon-mark-pick-drop.png' alt='icon' width={16} height={16}/>
+                        <Input type='checkbox' className=' h-3 w-3  focus:ring-2 focus:ring-PrimaryBlue  active:bg-gray-300 cursor-pointer'/>
                         <p className='text-[16px] font-semibold'>Pick-Up</p>
                     </div>
                     {/* Bottom Section */}
@@ -22,7 +23,7 @@ export default function PickDrop() {
                             <div className=' flex flex-col p-2 '>
                                 <h1 className='text-[16px] font-bold'>Location</h1>
                                 <div className='flex flex-row justify-start items-center gap-2'>
-                                    <p className='text-[12px] font-medium text-black/50'>Select your city</p>
+                                    <Input type='text' list='city-options' id='cities' name='cities'  placeholder='Select your city' className='h-6  auto border-none active:text-[12px]'/>
                                     <span> <ChevronDown  width={12} height={12}/> </span>
                                 </div>
                             </div>
@@ -32,7 +33,8 @@ export default function PickDrop() {
                             <div className=' flex flex-col p-2'>
                                 <h1 className='text-[16px] font-bold'>Date</h1>
                                 <div className='flex flex-row justify-start items-center gap-2'>
-                                    <p className='text-[12px] font-medium text-black/50'>Select your date</p>
+                                <Input type='text' list='city-options' id='cities' name='cities'  placeholder='Select your date' className='h-6  auto border-none  active:text-[12px] text-textGray'/>
+                                    {/* <p className='text-[12px] font-medium text-black/50'>Select your date</p> */}
                                     <span> <ChevronDown  width={12} height={12}/> </span>
                                 </div>
                             </div>
@@ -42,7 +44,7 @@ export default function PickDrop() {
                             <div className=' flex flex-col p-2'>
                                 <h1 className='text-[16px] font-bold'>Time</h1>
                                 <div className='flex flex-row justify-start items-center gap-2'>
-                                    <p className='text-[12px] font-medium text-black/50'>Select your time</p>
+                                <Input type='text' list='city-options' id='cities' name='cities'  placeholder='Select time' className='h-6  auto border-none  active:text-[12px] text-textGray'/>
                                     <span> <ChevronDown  width={12} height={12}/> </span>
                                 </div>
                             </div>
@@ -61,11 +63,11 @@ export default function PickDrop() {
 
                  {/* Last Part */}
 
-                <div className='p-4 bg-white max-w-[582px] space-y-2 shadow-md rounded'>
+                <div className='p-3 bg-white max-w-[582px] space-y-2 shadow-md rounded'>
                     {/* Above Section */}
                     {/* 1st part above section */}
                     <div className='flex justify-start items-center gap-2'>
-                        <Image src='/icon-mark-pick-drop.png' alt='icon' width={16} height={16}/>
+                    <Input type='checkbox' className=' h-3 w-3  focus:ring-2 focus:ring-PrimaryBlue  active:bg-gray-300 cursor-pointer'/>
                         <p className='text-[16px] font-semibold'>Drop-Off</p>
                     </div>
                     {/* Bottom Section */}
@@ -75,7 +77,7 @@ export default function PickDrop() {
                             <div className=' flex flex-col p-2 '>
                                 <h1 className='text-[16px] font-bold'>Location</h1>
                                 <div className='flex flex-row justify-start items-center gap-2'>
-                                    <p className='text-[12px] font-medium text-black/50'>Select your city</p>
+                                <Input type='text' list='city-options' id='cities' name='cities'  placeholder='Select your city' className='h-6  auto border-none active:text-[12px]'/>
                                     <span> <ChevronDown  width={12} height={12}/> </span>
                                 </div>
                             </div>
@@ -85,7 +87,7 @@ export default function PickDrop() {
                             <div className=' flex flex-col p-2'>
                                 <h1 className='text-[16px] font-bold'>Date</h1>
                                 <div className='flex flex-row justify-start items-center gap-2'>
-                                    <p className='text-[12px] font-medium text-black/50'>Select your date</p>
+                                <Input type='text' list='city-options' id='cities' name='cities'  placeholder='Select your date' className='h-6  auto border-none active:text-[12px]'/>
                                     <span> <ChevronDown  width={12} height={12}/> </span>
                                 </div>
                             </div>
@@ -95,7 +97,7 @@ export default function PickDrop() {
                             <div className=' flex flex-col p-2'>
                                 <h1 className='text-[16px] font-bold'>Time</h1>
                                 <div className='flex flex-row justify-start items-center gap-2'>
-                                    <p className='text-[12px] font-medium text-black/50'>Select your time</p>
+                                <Input type='text' list='city-options' id='cities' name='cities'  placeholder='Select your time' className='h-6  auto border-none active:text-[12px]'/>
                                     <span> <ChevronDown  width={12} height={12}/> </span>
                                 </div>
                             </div>

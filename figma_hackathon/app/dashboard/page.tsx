@@ -1,5 +1,6 @@
 'use client'
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -22,7 +23,7 @@ export default function Dashboard() {
             {/* Left side of the section */}
             <div className={`bg-white px-5 w-[330px] max-h-full h-max shadow-sm lg:flex flex-col ${isOpen ? "block" : "hidden"} ${isOpen ? "absolute":"relative"}`}>
                 <div className='w-'>
-                        {/* Type */}
+                        {/* Side menu */}
                         <div className='mx-0 mt-8 space-y-5 flex justify-start flex-col items-start'>
                         <h1 className='text-[12px] text-black/50 font-semibold'>MAIN MENU</h1>
                         {/* dashboard */}
@@ -123,7 +124,7 @@ export default function Dashboard() {
                     {/* pick up */}
 
                     <div className='flex justify-start items-center gap-2'>
-                        <Image src='/icon-mark-pick-drop.png' alt='icon' width={16} height={16}/>
+                    <Input type='checkbox' className=' h-3 w-3  focus:ring-2 focus:ring-PrimaryBlue  active:bg-gray-300 cursor-pointer'/>
                         <p className='text-[16px] font-semibold'>Pick-Up</p>
                     </div>
                     {/* Bottom Section */}
@@ -163,7 +164,7 @@ export default function Dashboard() {
                     {/* Drop off */}
 
                     <div className='flex justify-start items-center gap-2'>
-                        <Image src='/icon-mark-pick-drop.png' alt='icon' width={16} height={16}/>
+                    <Input type='checkbox' className=' h-3 w-3  focus:ring-2 focus:ring-PrimaryBlue  active:bg-gray-300 cursor-pointer'/>
                         <p className='text-[16px] font-semibold'>Drop-Off</p>
                     </div>
                     {/* Bottom Section */}

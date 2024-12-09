@@ -21,7 +21,7 @@ export default function RootLayout({
         className={`w-100vw max-w-full container antialiased`}
       > <Header/>
         {children}
-        <Footer />
+        <Footer/>
       </body>
     </html>
   );
