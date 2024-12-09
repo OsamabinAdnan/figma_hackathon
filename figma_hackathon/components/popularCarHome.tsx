@@ -17,7 +17,7 @@ export default function PopularCarsHome() {
             <div className='flex justify-between items-center overflow-hidden gap-8'>
                 
                 {/* 1st Car Card */}
-                <div className='bg-white w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
+                <div className='bg-white max-w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
                     <div className='space-y-8'>
                         {/* Text and heart */}
                         <div className='flex justify-between items-start'>
@@ -60,7 +60,7 @@ export default function PopularCarsHome() {
                 </div>
 
                 {/* 2nd Car Card */}
-                <div className='bg-white w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
+                <div className='bg-white max-w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
                     <div className='space-y-8'>
                         {/* Text and heart */}
                         <div className='flex justify-between items-start'>
@@ -106,7 +106,7 @@ export default function PopularCarsHome() {
                 </div>
 
                 {/* 3rd Car Card */}
-                <div className='bg-white w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
+                <div className='bg-white max-w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative over'>
                     <div className='space-y-8'>
                         {/* Text and heart */}
                         <div className='flex justify-between items-start'>
@@ -149,7 +149,7 @@ export default function PopularCarsHome() {
                 </div>
 
                  {/* 4th Car Card */}
-                 <div className='bg-white w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
+                 <div className='bg-white max-w-[304px] h-[388px] p-4 rounded-[10px] flex justify-center items-center relative'>
                     <div className='space-y-8'>
                         {/* Text and heart */}
                         <div className='flex justify-between items-start'>

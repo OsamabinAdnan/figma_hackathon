@@ -50,7 +50,7 @@ export default function Header() {
                     <Image src='/icon-search.png' alt='icon' width={24} height={24}/>
                     <Input type='text' placeholder='Search something here' className='border-none text-[14px] text-textGray font-regular'/>
                 </div>
-                <div className='border-[1px] px-4 rounded h-[44px] max-h-full w-[74px]   flex justify-center items-center'>
+                <div className='border-[1px] px-4 rounded h-[44px] max-h-full max-w-[74px]   flex justify-center items-center'>
                     <Image src='/icon-filter.png' alt='icon'width={24} height={24} className=''/>
                 </div>
                    

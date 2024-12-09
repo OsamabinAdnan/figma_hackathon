@@ -14,10 +14,10 @@ export default function RecommendedCarsHome() {
         </div>
 
         {/* Recommandation Cars */}
-        <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 place-items-center'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-8 gap-2 place-items-center'>
             
             {/* 1st Car Card */}
-            <div className='bg-white w-[310px] h-[388px] p-2  rounded-[10px] flex justify-center items-center relative'>
+            <div className='bg-white max-w-[304px] h-[388px] p-2  rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6 '>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -63,7 +63,7 @@ export default function RecommendedCarsHome() {
             </div>
 
             {/* 2nd Car Card */}
-            <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+            <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -106,7 +106,7 @@ export default function RecommendedCarsHome() {
             </div>
 
             {/* 3rd Car Card */}
-            <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+            <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -149,7 +149,7 @@ export default function RecommendedCarsHome() {
             </div>
 
              {/* 4th Car Card */}
-             <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+             <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -192,7 +192,7 @@ export default function RecommendedCarsHome() {
             </div>
 
              {/* 5th Car Card */}
-             <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+             <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -238,7 +238,7 @@ export default function RecommendedCarsHome() {
             </div>
 
              {/* 6th Car Card */}
-             <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+             <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -281,7 +281,7 @@ export default function RecommendedCarsHome() {
             </div>
 
             {/* 7th Car Card */}
-            <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+            <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
@@ -324,7 +324,7 @@ export default function RecommendedCarsHome() {
             </div>
 
             {/* 8th Car Card */}
-            <div className='bg-white w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
+            <div className='bg-white max-w-[304px] h-[388px] p-2 rounded-[10px] flex justify-center items-center relative'>
                 <div className='space-y-6'>
                     {/* Text and heart */}
                     <div className='flex justify-between items-start'>
