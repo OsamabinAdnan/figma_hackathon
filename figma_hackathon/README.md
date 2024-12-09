@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Purpose
+The purpose of this project was to design and develop a modern, user-friendly UI for a car rental website. The design aimed to provide intuitive interface to explore available cars, understand rental services, and easily interact with call-to-action elements. Using Figma for prototyping and Next.js for implementation, the project focused on delivering a responsive, visually appealing, and functional user experience aligned with industry standards.
 
-## Getting Started
+# Key Components Implemented
+1) Navbar: A responsive navigation bar with clear links to various sections of the website.
+2) Hero Section: A visually impactful introduction with bold typography, CTAs, and imagery.
+3) Car Listing Section: A grid-based layout displaying cars with placeholders for details like model, price, and availability.
+4) User Dashboard: A personalized section for users to manage their bookings and account settings.
+5) Product Detail Page: A dedicated page displaying comprehensive details of individual cars, including specifications and features.
+6) Payment Gateway Integration: A seamless payment system enabling secure transactions for car rentals.
+7) Cars Category Page: A filtered view allowing users to browse cars by specific categories like SUVs, Sedans, or Electric.
 
-First, run the development server:
+## Shadcn UI Component used in this project are:
+1) Button: Implemented for call-to-action elements such as "Book Now" and "Learn More."
+2) Checkbox: Used in forms and filter options for category or feature selection.
+3) Input: Incorporated for user entries like search bars and form fields.
+4) Slider: Used to adjust parameters like price range or rental duration dynamically.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Steps to Run the Project Locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Click on [Morent Cars](https://morent-osamabinadnan.vercel.app/) to see project
